@@ -1,0 +1,17 @@
+fun main() {
+    println("1. Segitiga")
+    val segitiga = Segitiga(8)
+    segitiga.printSegitiga()
+    println("2. Segitiga Terbalik")
+    val segitigaTerbalik = SegitigaTerbalik(8)
+    segitigaTerbalik.printSegitigaTerbalik()
+    println("3. Berlian")
+    segitiga.printSegitiga()
+    segitigaTerbalik.printSegitigaTerbalik()
+    println("4. X")
+    var exes = Exes(15)
+    exes.printExes()
+    println("5. Segitiga Bolong")
+    var hollow = Hollow(6)
+    hollow.printHollow()
+}
